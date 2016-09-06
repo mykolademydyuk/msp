@@ -48,7 +48,10 @@ class Max : IOperation
 
         private double max(double a, double b)
         {
-            return 1;
+            if (a > b)
+                return a;
+            else
+                return b;
         }
 
     }
